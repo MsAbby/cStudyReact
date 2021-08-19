@@ -46,7 +46,9 @@ return ( <div>111</div> );
 02 引入createContext
 
 
-## useState
-001 相当于react-redux
+## useReducer
+01 相似于redux
+02 经常和useContext一起使用 实现redux效果
+03 action
 
 
