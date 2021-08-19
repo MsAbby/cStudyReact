@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Example from './pages/example'
+import Example2 from './pages/example2'
 
-ReactDOM.render(<Example/>,document.getElementById('root'));
+ReactDOM.render(<Example2/>,document.getElementById('root'));
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

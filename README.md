@@ -14,7 +14,7 @@
 03 优点4： 没有渲染逻辑<br>
 04 主要目的： 不写class<br>
 05 实际： 组件尽量写成纯函数，如果需要外部功能，就用钩子把外部代码钩进来<br>
-06 四种常见的hooks钩子作用不同： useState, useEffect, userContext, userReducer<br>
+06 四种常见的hooks钩子作用不同： useState, useEffect, useContext, useReducer<br>
 07 react规定： 钩子一律使用user前缀命名，自定义的一样<br>
 
 ## useState（两个参数）
@@ -40,3 +40,13 @@ let setCcount =  _userState[1]
 }, [])
 return ( <div>111</div> );
 ````
+
+## useContext
+01 解决父子组件之间的传值, 实现共享 (以前是props)
+02 引入createContext
+
+
+## useState
+001 相当于react-redux
+
+
