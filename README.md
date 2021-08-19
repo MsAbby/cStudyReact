@@ -31,7 +31,12 @@ let setCcount =  _userState[1]
 
 ## useEffect（两个参数）
 01 作用1： 纯函数没有生命周期函数， useEffect相当于生命周期ComponentDidMount()和ComponentDidUpdate()<br>
-01 作用2： 处理异步请求<br>
+01 作用2： 处理“ 异步 ”请求<br>
 02 说明： 第一项是异步操作， 第二项是数组（只要变化就会执行），第二项默认不填时，每次渲染都会执行<br>
-
-02 如何读取
+````
+<!-- 第二个参数是[], 被认为执行的是组件销毁时 -->
+ useEffect(() => {
+    console.log('组件销毁1')
+}, [])
+return ( <div>111</div> );
+````
