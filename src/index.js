@@ -3,9 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 // import Example3 from './pages/example3'
-import ExampleCombine from './pages/exampleCombine'
+// import ExampleCombine from './pages/exampleCombine'
+import ExampleMemo from './pages/exampleMeno'
 
-ReactDOM.render(<ExampleCombine/>,document.getElementById('root'));
+ReactDOM.render(<ExampleMemo/>,document.getElementById('root'));
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

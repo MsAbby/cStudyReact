@@ -51,4 +51,13 @@ return ( <div>111</div> );
 02 经常和useContext一起使用 实现redux效果
 03 action
 
+## useMemo 性能优化
+01 shouldComponentUpdate: 组件更新之前, 对比状态，需要更新就更新，没有更新就制止了
+02 useEffect: 父组件状态更新，子组件没有，就会浪费性能
+03 解决子组件重复执行的问题
+
+## useRef 获取dom元素和存储变量
+
+## useCallback 自定义hooks 钩子函数
+
 
